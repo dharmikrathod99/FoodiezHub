@@ -1,0 +1,12 @@
+/*  Fortailwind css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* For  swiper silder */
+@import 'swiper/swiper-bundle.min.css';
+
+
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');

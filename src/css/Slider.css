@@ -1,0 +1,59 @@
+
+/* FoodSlider.css */
+.slider-container {
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+}
+
+.slider-item {
+    position: relative;
+}
+
+.slider-image {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.slider-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.slider-title {
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+.slider-item:hover .slider-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* TextStyles.css */
+.awesome-text {
+    font-family: 'Pacifico ', cursive;
+    font-size: 3rem;
+    color: #8f1485;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.awesome-text:hover {
+    color: #ff00f2;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+}
