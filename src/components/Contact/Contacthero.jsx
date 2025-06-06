@@ -52,12 +52,11 @@ function Contacthero() {
                         <button
                             type="submit"
                             className="w-full bg-red-600 text-white font-semibold py-3 rounded hover:bg-indigo-700 transition"
-                        >
+                        >   
                             Submit
                         </button>
                     </form>
                 </div>
-
             </section>
         </>
     )

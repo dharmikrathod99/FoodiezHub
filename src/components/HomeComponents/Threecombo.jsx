@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaPizzaSlice, FaTruck, FaUtensils } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 function Threecombo() {
     return (
@@ -17,7 +18,7 @@ function Threecombo() {
                                 </div>
                                 <div className="w-full md:w-[50%]   rounded-lg">
                                     <img src="https://gramentheme.com/html/fresheat/assets/img/offer/offerThumb1_1.png" alt="" />
-                                    <button className='p-5 bg-red-600 text-white px-4 py-2 rounded-lg mt-4'>Order Now</button>
+                                    <Link to='/foodmenu'><button className='p-5 bg-red-600 text-white px-4 py-2 rounded-lg mt-4'>Order Now</button></Link>
 
                                 </div>
                             </div>
@@ -33,7 +34,7 @@ function Threecombo() {
                                 </div>
                                 <div className="w-full md:w-[50%]   rounded-lg">
                                     <img src="https://gramentheme.com/html/fresheat/assets/img/offer/offerThumb1_2.png" alt="" />
-                                    <button className='p-5 bg-red-600 text-white px-4 py-2 rounded-lg mt-4'>Order Now</button>
+                                    <Link to='/foodmenu'><button className='p-5 bg-red-600 text-white px-4 py-2 rounded-lg mt-4'>Order Now</button></Link>
 
                                 </div>
                             </div>
@@ -49,7 +50,7 @@ function Threecombo() {
                                 </div>
                                 <div className="w-full md:w-[50%]   rounded-lg">
                                     <img src="https://gramentheme.com/html/fresheat/assets/img/offer/offerThumb1_3.png" alt="" />
-                                    <button className='p-5 bg-red-600 text-white px-4 py-2 rounded-lg mt-4'>Order Now</button>
+                                    <Link to='/foodmenu'><button className='p-5 bg-red-600 text-white px-4 py-2 rounded-lg mt-4'>Order Now</button></Link>
 
                                 </div>
                             </div>

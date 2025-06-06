@@ -45,7 +45,7 @@ const cardData = [
 
 function SwipeCards() {
     return (
-        <div className="w-full px-4 py-12 overflow-x-auto scrollbar-hide scroll-smooth bg-gradient-to-br from-indigo-100 to-violet-100">
+        <div className="w-full px-4 py-12  scrollbar-hide overflow-x-auto scrollbar-hide scroll-smooth bg-gradient-to-br from-indigo-100 to-violet-100">
             <div className="flex gap-6 w-max">
                 {cardData.map((card) => (
                     <TiltCard key={card.id} title={card.title} image={card.image} />

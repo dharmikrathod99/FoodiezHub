@@ -7,7 +7,7 @@ function Title() {
         <>
             <div className="title">
                 <div className="overflow-hidden whitespace-nowrap w-full  py-4">
-                    <div className="animate-marquee inline-block">
+                    <div className="inline-block animate-marqueeLR text-2xl font-bold">
                         {items.map((item, index) => (
                             <span
                                 key={index}
